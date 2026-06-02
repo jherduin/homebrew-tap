@@ -2,8 +2,7 @@ cask "clawdnotch" do
   version "1.0.0"
   sha256 "053e3d71beed34e0b0a446ca572fceaa49c46a634c86ca08bc7e6cb13455d55e"
 
-  url "https://github.com/jherduin/ClawdNotch/releases/download/v#{version}/ClawdNotch-#{version}.dmg",
-      verified: "github.com/jherduin/ClawdNotch/"
+  url "https://github.com/jherduin/ClawdNotch/releases/download/v#{version}/ClawdNotch-#{version}.dmg"
   name "ClawdNotch"
   desc "Notch halo indicating Claude Code state"
   homepage "https://github.com/jherduin/ClawdNotch"
